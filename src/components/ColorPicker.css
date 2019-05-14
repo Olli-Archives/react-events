@@ -1,0 +1,14 @@
+.ColorPicker{
+  button{
+    cursor:pointer
+  }
+  .red{
+    background-color:red;
+  }
+  .blue{
+    background-color:blue;
+  }
+  .green{
+    background-color:green;
+  }
+}

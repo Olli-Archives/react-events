@@ -14,8 +14,8 @@ export default class ColorPicker extends PureComponent {
   render(){
     return (
       <>
-      <button onClick={this.clickHandler} style={
-        { background:this.props.color, width: '300px', height:'100px' }
+      <button className={this.props.color} onClick={this.clickHandler} style={
+        {  width: '300px', height:'100px' }
       }>{this.props.color}</button>
       
       </>
